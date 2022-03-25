@@ -1,0 +1,65 @@
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: #1a2a33;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#header {
+  width: 4.94513vw;
+  height: 3.52666vh;
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.6236111vw;
+}
+
+#header img {
+  height: 3.52666vh;
+  width: 3.52666vh;
+}
+#picker {
+  width: 31.9444vw;
+  height: 22.7777vh;
+  background-color: #1f3641;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#choice {
+  display: flex;
+  flex-direction: row;
+}
+
+#computer {
+  background-color: #ffc860;
+}
+
+#player {
+  background-color: #65e9e4;
+}
+
+#picker span:nth-child(1) {
+  color: #d8e8ed;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#picker span:nth-child(3) {
+  color: #a8bfc9;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.875px;
+}
